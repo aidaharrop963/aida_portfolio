@@ -64,4 +64,8 @@ background-color: #1E3886;
 .col-sm-12 {
 	padding-top: 35px;
 }
+.btn-default {
+	background-color:#5E1785;
+	color:white;
+}
 
