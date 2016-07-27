@@ -1,5 +1,5 @@
 /*
- Theme Name:   My first Theme
+ Theme Name:   Test Project
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Twenty Fifteen Child Theme
  Author:       John Doe
@@ -10,15 +10,58 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
+
 */
 
+/*.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #607D8B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }*/
+
+@import 'https://fonts.googleapis.com/css?family=Alegreya|Source+Sans+Pro';
+
+.home .blog .logged-in .admin-bar  .customize-support{
+	background-color: white
+	;
+}
+
 body {
-	text-transform: uppercase;
+	text-transform:initial;
+	word-wrap: break-word;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
 	text-decoration: underline;
+	color: black;
 }
 p{
 	color: black;
 }
+.jumbotron{
+	color:white;
+	 background-image:url("http://www.pixelstalk.net/wp-content/uploads/2016/03/Nice-Backgrounds-for-desktop-download.jpg");
+}
+.h1, .h2, .h3, h1, h2, h3 {
+	font-family: 'Alegreya', serif;
+	color:black;
+}
+.navbar-default, .navbar-collapse, .navbar-default, .navbar-form {
+	background-color:#5E1785;
+
+}
+.site-header{
+background-color: #1E3886;
+}
+.site-navigation{
+background-color: #1E3886;
+}
+.col-sm-12 {
+	padding-top: 35px;
+}
+
