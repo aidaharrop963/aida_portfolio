@@ -22,18 +22,22 @@
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }*/
 
+/* changing the font of the text (headers) */
 @import 'https://fonts.googleapis.com/css?family=Alegreya|Source+Sans+Pro';
 
-.home .blog .logged-in .admin-bar  .customize-support{
-	background-color: white
-	;
-}
-
+/* dealing with the whole aspect of the website (the body and the text for the body)*/
 body {
 	text-transform:initial;
 	word-wrap: break-word;
 	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+	font-family: 'Alegreya', serif;
+	color:black;
+}
+.home .blog .logged-in .admin-bar  .customize-support{
+	background-color: white;
 }
 
 a {
@@ -43,14 +47,12 @@ a {
 p{
 	color: black;
 }
+/* jumbotron editing of the pictures and the font*/
 .jumbotron{
 	color:white;
 	 background-image:url("http://www.pixelstalk.net/wp-content/uploads/2016/03/Nice-Backgrounds-for-desktop-download.jpg");
 }
-.h1, .h2, .h3, h1, h2, h3 {
-	font-family: 'Alegreya', serif;
-	color:black;
-}
+/* editing of the navbar and the navigation to make the navbar sticky */
 .navbar-default, .navbar-collapse, .navbar-default, .navbar-form {
 	background-color:#5E1785;
 
