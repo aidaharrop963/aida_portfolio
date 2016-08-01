@@ -34,7 +34,7 @@ body {
 }
 .h1, .h2, .h3, h1, h2, h3 {
 	font-family: 'Alegreya', serif;
-	color:purple;
+	color: #652B80;
 }
 .home .blog .logged-in .admin-bar  .customize-support{
 	background-color: white;
@@ -42,7 +42,7 @@ body {
 
 a {
 	text-decoration: underline;
-	color: purple;
+	color: #652B80;
 }
 p{
 	color: black;
@@ -54,8 +54,11 @@ p{
 }
 /* editing of the navbar and the navigation to make the navbar sticky */
 .navbar-default, .navbar-collapse, .navbar-default, .navbar-form {
-	background-color:#5E1785;
+	background-color: #652B80;
 
+}
+.navbar-default .navbar-collapse, .navbar-default, .navbar-form{
+	border-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
 	color: white;
